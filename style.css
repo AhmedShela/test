@@ -99,7 +99,7 @@ border: 1px double #ccd0d5;
 article{
     padding: 20px;
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .appPreview {
        display: block;
     }
@@ -109,7 +109,7 @@ article{
     div.MoreInfoterms {
        width: 100%;
     } 
- }
+ } */
  footer div{
     background : #51F762;
     height: 50px; 
