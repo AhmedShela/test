@@ -1,0 +1,120 @@
+header{
+    background : #51F762;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+main{
+    /* background-color: #4A754E; */
+    background-color: #9AF5A3;
+    height: 1000px;
+    /* margin:0px; */
+    /* padding: 0px; */
+    width: 5000px;
+    /* margin-right: 150px; */
+}
+body{
+    background-color: #9AF5A3;
+}
+*{
+    margin: 0px;
+}
+#profil-img{
+    width: 120px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#div-profileimage{
+    padding: 20px;
+}
+h1{
+    padding-top: 20px;
+    font-family: Brush Script MT;
+    font-size: 50px;
+    color: cornsilk;
+    
+}
+#p-intro{
+    font-size: 20px;
+}
+#ul-buttons li{
+    display: inline;
+    padding-left: 20px;
+}
+#nav-buttons{
+    background-color: #27752F;
+    display: block;
+    margin-top: 18px;
+}
+#ul-buttons{
+    padding:0px;
+    margin: 0px;
+}
+button{
+    padding: 15px 32px;
+}
+/* this will be the style of the main  */
+#div1-main-parint{
+    width: 1400px;
+    background-color: #4A754E;
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+#div1-main-chaild{
+background-color: #27752F;
+display: block;
+overflow-y: hidden;
+height: 500px;
+border-radius: 8px;
+}
+
+
+#div1-main-chaild:hover{
+    overflow-y: scroll;
+}
+#div2-main-chaild{
+background-color: #9AF5A3;
+margin-left: 500px;
+border: 1px double #ccd0d5;
+    border-radius: 8px;
+}
+.img-list{
+    width: 320px;
+    height: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    border-radius: 8px;
+}
+#div1-main-chaild ul {
+    list-style:none;
+}
+article{
+    padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+    .appPreview {
+       display: block;
+    }
+    .right_content {
+       float: none;
+    }
+    div.MoreInfoterms {
+       width: 100%;
+    } 
+ }
+ footer div{
+    background : #51F762;
+    height: 50px;
+ }
+ footer div p{
+     font-family: Brush -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 30px;
+ }
