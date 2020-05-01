@@ -5,6 +5,7 @@
             Only for test
         </Title>
         <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
         <header>
@@ -22,13 +23,13 @@
         <div id="div2-header">
             <na id="nav-buttons">
                 <ul id="ul-buttons">
-                    <li><button>
+                    <li><button id="btn-life">
                         life
                     </button></li>
-                    <li><button>
+                    <li><button id="btn-friends">
                         Friends
                     </button></li>
-                    <li><button>
+                    <li><button id=btn-family>
                         Family
                     </button></li>
                 </ul>
@@ -39,19 +40,55 @@
         <main>
             <div id="div1-main-parint">
                 <div id="div1-main-chaild">
-                    <ul>
-                        <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/76727044_3231829516889667_9018475029951676416_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_eui2=AeHvhXbr8VoRhCivQKUrk884FEKHQw2aaIAUQodDDZpogIAxxShb7uqsG8H1ck7GNdNupp-LF3cS4cwC-fltj_fj&_nc_oc=AQnqXyuLkrR7KrFExM8HhBY8Uc1cQQLFAa2-LsK6BgBF-KnjYvMvs8-RF0zkJ2HXuN0&_nc_ht=scontent.famm6-1.fna&oh=95dca8aa5bce29e391e37c84d175b450&oe=5ED19E30" alt=""></a></li>
-                        <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-0/p206x206/49375900_1974265935987790_8981165374900797440_o.jpg?_nc_cat=108&_nc_sid=7aed08&_nc_eui2=AeHu7IQLUa8EtKgA5JYI0_mnIQLuu1-gv2AhAu67X6C_YOdhd3AzY7WM9WTrB1axpUgS7N5wpnU9n5h-MwwO-fAz&_nc_oc=AQl7M_3VBiMfheha1EgauRioJoKY9NmNvNgeRs2DmmlOTGwbTIDYND70RHY7kEazfM0&_nc_ht=scontent.famm6-1.fna&_nc_tp=6&oh=d982182e21194cf274ac79270dd09db4&oe=5ECDD60B" alt=""></a></li>
-                        <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/s960x960/38194166_1764791946935191_1845569209690488832_o.jpg?_nc_cat=103&_nc_sid=110474&_nc_eui2=AeFv2LR3ZU8vib--81Tjcu4BT8JRV9M4nPhPwlFX0zic-CyHx4pytQwM2qvy1KPgR760sqR6IjiauReGqlSmX1-C&_nc_oc=AQnrAimdrXqx_q42PSe3Onxhs1v_mfv2m0AvJAxlCQ6tjklkKRLP3ZsBjJQoN06RC7Q&_nc_ht=scontent.famm6-1.fna&_nc_tp=7&oh=0d7058201dbdacd13a813bb11ba45bd9&oe=5ED06DED" alt=""></a></li>
+                    <ul id = "ul-life">
+                        <li><a id = "link-img1" href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/76727044_3231829516889667_9018475029951676416_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_eui2=AeHvhXbr8VoRhCivQKUrk884FEKHQw2aaIAUQodDDZpogIAxxShb7uqsG8H1ck7GNdNupp-LF3cS4cwC-fltj_fj&_nc_oc=AQnqXyuLkrR7KrFExM8HhBY8Uc1cQQLFAa2-LsK6BgBF-KnjYvMvs8-RF0zkJ2HXuN0&_nc_ht=scontent.famm6-1.fna&oh=95dca8aa5bce29e391e37c84d175b450&oe=5ED19E30" alt=""></a></li>
+                        <li><a id = "link-img2" href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-0/p206x206/49375900_1974265935987790_8981165374900797440_o.jpg?_nc_cat=108&_nc_sid=7aed08&_nc_eui2=AeHu7IQLUa8EtKgA5JYI0_mnIQLuu1-gv2AhAu67X6C_YOdhd3AzY7WM9WTrB1axpUgS7N5wpnU9n5h-MwwO-fAz&_nc_oc=AQl7M_3VBiMfheha1EgauRioJoKY9NmNvNgeRs2DmmlOTGwbTIDYND70RHY7kEazfM0&_nc_ht=scontent.famm6-1.fna&_nc_tp=6&oh=d982182e21194cf274ac79270dd09db4&oe=5ECDD60B" alt=""></a></li>
+                        <li><a id = "link-img3" href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/s960x960/38194166_1764791946935191_1845569209690488832_o.jpg?_nc_cat=103&_nc_sid=110474&_nc_eui2=AeFv2LR3ZU8vib--81Tjcu4BT8JRV9M4nPhPwlFX0zic-CyHx4pytQwM2qvy1KPgR760sqR6IjiauReGqlSmX1-C&_nc_oc=AQnrAimdrXqx_q42PSe3Onxhs1v_mfv2m0AvJAxlCQ6tjklkKRLP3ZsBjJQoN06RC7Q&_nc_ht=scontent.famm6-1.fna&_nc_tp=7&oh=0d7058201dbdacd13a813bb11ba45bd9&oe=5ED06DED" alt=""></a></li>
+                        <li><a id = "link-img4" href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/p720x720/32595103_1941242652617556_4081776037233426432_o.jpg?_nc_cat=105&_nc_sid=110474&_nc_eui2=AeFZrOjxd5vHcVCTVYqTzg5lA8fJGsdaviUDx8kax1q-JSKgWERppHdZTpOI8GXEWJvHqIgmn__kcCbe1a6tBTsb&_nc_oc=AQmrA39uASoRUKlRKUqxbJQRaylX0lqsqvs-_LEq-qyX_kqa3JbwCVxvM-nNFGOZip4&_nc_ht=scontent.famm6-1.fna&_nc_tp=6&oh=d898dabe644c63d8712cef7e088907af&oe=5ECF3770" alt=""></a></li>
+                        <li><a id = "link-img5" href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/35927027_1997746066967214_562703486723031040_o.jpg?_nc_cat=105&_nc_sid=110474&_nc_eui2=AeESyPzZyW8_E0kmkM6N4-vSgFj5y8b7_n-AWPnLxvv-f4faydVQkhgYTCmMLmj-288SGP2riPMS430DQoPbHFSV&_nc_oc=AQn2NqjFDaGR0ONSKjZjVT8Oqu-_DF6JxgPup0dRkSCFcl5TorNFw1mre5CMjcXrg1o&_nc_ht=scontent.famm6-1.fna&oh=c095c9f209ca5571d6acb1011308fb2c&oe=5ED0C9E9" alt=""></a></li>
+                        <li><a id = "link-img6" href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t31.0-8/16112690_1209173092497082_8701798479547108674_o.jpg?_nc_cat=111&_nc_sid=110474&_nc_eui2=AeFZxvcfvk2d7PWLxhISMKJhccHOdp4VU05xwc52nhVTTsvXdpoHeepVxbU6ZvlFEjEhOm711vqKspfae5Nw5W0M&_nc_oc=AQnSLx2jpe5VelSQrOnsiXBGGSweTJg-chtJ1kY8Sn5F661CzhSrBiTNz5UUFxMDcJ4&_nc_ht=scontent.famm6-1.fna&oh=c36fd079b58f523657ee18806c2f8264&oe=5ECFA18E" alt=""></a></li>
+                        <li><a id = "link-img7" href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/10516601_1602955016597545_332843917254007261_n.jpg?_nc_cat=109&_nc_sid=a61e81&_nc_eui2=AeH4Zp1rH6vDXNTsRho0C82wsdr2AFhA75ex2vYAWEDvl8fFV1nI5OXpZKvJH9uyAt4PCxREUFSCYCvCmlgtyz-x&_nc_oc=AQmW2pQ7dZoUr0vq_Gf9V1nTAM3xuNJN4rXLn05fb-Ipi1AvWQKN9obJ0lxezpcEGsg&_nc_ht=scontent.famm6-1.fna&oh=3e8559de30845ccd3f807ad14ce64ace&oe=5ECEAA20" alt=""></a></li>
+                    </ul>
+                    <ul id = "ul-friends">
+                        <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-9/12219633_453185094887466_1003248921783535245_n.jpg?_nc_cat=102&_nc_sid=110474&_nc_oc=AQnQbSTpRSxdBoxELiFC6pMO4x8qO8La31uHHfohBzp4CIjYkyDRuAIR_I97CZMPegM&_nc_ht=scontent.famm7-1.fna&oh=66cdf47b236121b2878fa46e83c21211&oe=5ED3F684" alt=""></a></li>
+                         <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-9/s960x960/73124326_686488275173669_4147412899976970240_o.jpg?_nc_cat=111&_nc_sid=110474&_nc_oc=AQkgtNhcMxuqlMk0r0Va7ukp6wcaabjHGXFY59AZTubdMJ4OrTd_1ZYpEtuxSli7jRY&_nc_ht=scontent.famm7-1.fna&_nc_tp=7&oh=5df2aae97dc45c255f935640b0159e03&oe=5ED39145" alt=""></a></li>
+                        <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-1/82637936_1360825814103503_8358564304332521472_o.jpg?_nc_cat=102&_nc_sid=dbb9e7&_nc_oc=AQlneW-ZKcejkEW2CkQrOdvKZUZCSgpwc4tAju1VEItjQzmSVXK42PcVVwPgP1JFhf4&_nc_ht=scontent.famm7-1.fna&oh=55adb88a31437923347f61eca5c49768&oe=5ED3B0E5" alt=""></a></li>
+                        <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-9/p960x960/65631983_1686473511496918_5882979123814465536_o.jpg?_nc_cat=106&_nc_sid=85a577&_nc_oc=AQmwzm_Y7jO-ojn5G6vmOjQZuli5nXw8061xPnnca-08a73jLbIUkp-6PlufAUDoM-0&_nc_ht=scontent.famm7-1.fna&_nc_tp=6&oh=ae5de9d30d5c854dbaa7cca087c2e6b1&oe=5ED06DC5" alt=""></a></li>
+                        <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-9/29217056_958409244339200_1723934425902743552_n.jpg?_nc_cat=106&_nc_sid=85a577&_nc_oc=AQlyfWE1Pgf-hNN_C_sWXd9fD0FNZRDfyoAF9IDeTDPKBWCqeAptf7GiScsRMk3z65I&_nc_ht=scontent.famm7-1.fna&oh=a13d69d1f87185a5b0495bf59d911189&oe=5ED30FA8" alt=""></a></li>
+                        <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-9/74185052_1292190377656311_6287392458426810368_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQnzuBq6ApCp4vkXnqwxWE0jatvqFhfX7jEfEU_oUY16uJUBTWwE8ZqVqeIBao0q_sA&_nc_ht=scontent.famm7-1.fna&oh=739e75c53e11fd207d972b3e85da5867&oe=5ED25894" alt=""></a></li>
+                        <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/10516601_1602955016597545_332843917254007261_n.jpg?_nc_cat=109&_nc_sid=a61e81&_nc_eui2=AeH4Zp1rH6vDXNTsRho0C82wsdr2AFhA75ex2vYAWEDvl8fFV1nI5OXpZKvJH9uyAt4PCxREUFSCYCvCmlgtyz-x&_nc_oc=AQmW2pQ7dZoUr0vq_Gf9V1nTAM3xuNJN4rXLn05fb-Ipi1AvWQKN9obJ0lxezpcEGsg&_nc_ht=scontent.famm6-1.fna&oh=3e8559de30845ccd3f807ad14ce64ace&oe=5ECEAA20" alt=""></a></li>
+                    </ul>
+                    <ul id = "ul-family">
+                        <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-1/81801882_1636421663166085_1883247037927915520_o.jpg?_nc_cat=106&_nc_sid=dbb9e7&_nc_oc=AQkuUBk0gVP0822gjtL1iSRsQSCCJ8PPEplgM6t-ANq8YHRgiEfcBy8D875AuccgLRc&_nc_ht=scontent.famm7-1.fna&oh=70c478ba7687f402c883a811eecafed9&oe=5ED17B8A" alt=""></a></li>
+                        <li><a href=""><img class="img-list" src="https://scontent.famm7-1.fna.fbcdn.net/v/t1.0-9/43565408_1986199334798486_6328738884519723008_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_oc=AQlmeojG3s-zgByrtWDDgfvobmbFmU_rRKatI8zQpou1_kzR_xK8G5f0wrXaopC3wwo&_nc_ht=scontent.famm7-1.fna&oh=778681fee83acf878714d6dc703eb729&oe=5ED1FDAF" alt=""></a></li>
+                        <!-- <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/s960x960/38194166_1764791946935191_1845569209690488832_o.jpg?_nc_cat=103&_nc_sid=110474&_nc_eui2=AeFv2LR3ZU8vib--81Tjcu4BT8JRV9M4nPhPwlFX0zic-CyHx4pytQwM2qvy1KPgR760sqR6IjiauReGqlSmX1-C&_nc_oc=AQnrAimdrXqx_q42PSe3Onxhs1v_mfv2m0AvJAxlCQ6tjklkKRLP3ZsBjJQoN06RC7Q&_nc_ht=scontent.famm6-1.fna&_nc_tp=7&oh=0d7058201dbdacd13a813bb11ba45bd9&oe=5ED06DED" alt=""></a></li>
                         <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/p720x720/32595103_1941242652617556_4081776037233426432_o.jpg?_nc_cat=105&_nc_sid=110474&_nc_eui2=AeFZrOjxd5vHcVCTVYqTzg5lA8fJGsdaviUDx8kax1q-JSKgWERppHdZTpOI8GXEWJvHqIgmn__kcCbe1a6tBTsb&_nc_oc=AQmrA39uASoRUKlRKUqxbJQRaylX0lqsqvs-_LEq-qyX_kqa3JbwCVxvM-nNFGOZip4&_nc_ht=scontent.famm6-1.fna&_nc_tp=6&oh=d898dabe644c63d8712cef7e088907af&oe=5ECF3770" alt=""></a></li>
                         <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/35927027_1997746066967214_562703486723031040_o.jpg?_nc_cat=105&_nc_sid=110474&_nc_eui2=AeESyPzZyW8_E0kmkM6N4-vSgFj5y8b7_n-AWPnLxvv-f4faydVQkhgYTCmMLmj-288SGP2riPMS430DQoPbHFSV&_nc_oc=AQn2NqjFDaGR0ONSKjZjVT8Oqu-_DF6JxgPup0dRkSCFcl5TorNFw1mre5CMjcXrg1o&_nc_ht=scontent.famm6-1.fna&oh=c095c9f209ca5571d6acb1011308fb2c&oe=5ED0C9E9" alt=""></a></li>
                         <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t31.0-8/16112690_1209173092497082_8701798479547108674_o.jpg?_nc_cat=111&_nc_sid=110474&_nc_eui2=AeFZxvcfvk2d7PWLxhISMKJhccHOdp4VU05xwc52nhVTTsvXdpoHeepVxbU6ZvlFEjEhOm711vqKspfae5Nw5W0M&_nc_oc=AQnSLx2jpe5VelSQrOnsiXBGGSweTJg-chtJ1kY8Sn5F661CzhSrBiTNz5UUFxMDcJ4&_nc_ht=scontent.famm6-1.fna&oh=c36fd079b58f523657ee18806c2f8264&oe=5ECFA18E" alt=""></a></li>
-                        <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/10516601_1602955016597545_332843917254007261_n.jpg?_nc_cat=109&_nc_sid=a61e81&_nc_eui2=AeH4Zp1rH6vDXNTsRho0C82wsdr2AFhA75ex2vYAWEDvl8fFV1nI5OXpZKvJH9uyAt4PCxREUFSCYCvCmlgtyz-x&_nc_oc=AQmW2pQ7dZoUr0vq_Gf9V1nTAM3xuNJN4rXLn05fb-Ipi1AvWQKN9obJ0lxezpcEGsg&_nc_ht=scontent.famm6-1.fna&oh=3e8559de30845ccd3f807ad14ce64ace&oe=5ECEAA20" alt=""></a></li>
+                        <li><a href=""><img class="img-list" src="https://scontent.famm6-1.fna.fbcdn.net/v/t1.0-9/10516601_1602955016597545_332843917254007261_n.jpg?_nc_cat=109&_nc_sid=a61e81&_nc_eui2=AeH4Zp1rH6vDXNTsRho0C82wsdr2AFhA75ex2vYAWEDvl8fFV1nI5OXpZKvJH9uyAt4PCxREUFSCYCvCmlgtyz-x&_nc_oc=AQmW2pQ7dZoUr0vq_Gf9V1nTAM3xuNJN4rXLn05fb-Ipi1AvWQKN9obJ0lxezpcEGsg&_nc_ht=scontent.famm6-1.fna&oh=3e8559de30845ccd3f807ad14ce64ace&oe=5ECEAA20" alt=""></a></li> -->
                     </ul>
                 </div>
                 <div id="div2-main-chaild">
-                    <article>
-                        this is a changable short story
+                    <article id="articl-1">
+                        this is a changable short story 1
+                    </article> 
+                    <article id="articl-2">
+                        this is a changable short story 2
+                    </article> 
+                    <article id="articl-3">
+                        this is a changable short story 3
+                    </article> 
+                    <article id="articl-4">
+                        this is a changable short story 4
+                    </article> 
+                    <article id="articl-5">
+                        this is a changable short story 5
+                    </article> 
+                    <article id="articl-6">
+                        this is a changable short story 6
+                    </article> 
+                    <article id="articl-7">
+                        this is a changable short story 7
                     </article> 
                 </div>
 
@@ -65,5 +102,6 @@
                 </p>
             </div>
         </footer>
+        <script src="scripts/main.js"></script>
     </body>
 </html>
